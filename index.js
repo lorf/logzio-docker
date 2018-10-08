@@ -51,6 +51,8 @@ function start(opts) {
             else {
               obj.logzio_codec = 'plain';
             }
+            obj['@timestamp'] = (new Date(obj.time)).toISOString();
+            delete obj.time;
             type = 'docker_logs';
         }
         else if (obj.type) {

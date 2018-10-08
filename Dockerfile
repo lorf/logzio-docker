@@ -3,6 +3,9 @@
 # VERSION 2.0.1
 
 FROM mhart/alpine-node:7.5.0
+ARG http_proxy
+ARG https_proxy
+ARG no_proxy
 MAINTAINER Ran Ramati <ran@logz.io>
 RUN apk add --no-cache bash && rm -rf /var/cache/apk/*
 WORKDIR /usr/src/app
