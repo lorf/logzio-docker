@@ -18,7 +18,7 @@
     "docker-loghose": "1.4.0",
     "docker-stats": "0.7.2",
     "dockerode": "2.4.3",
-    "minimist": "1.2.0",
+    "minimist": "1.2.5",
     "through2": "2.0.3",
     "logzio-nodejs": "0.4.2",
     "is-json": "2.0.1"
